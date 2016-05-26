@@ -2,8 +2,12 @@ body{
     margin:0px;
     font-size:11px;
 }
-ul{
+ol, ul{
     list-style: none;
+}
+a{
+    color:white;
+    text-decoration:none;
 }
 
 #main{
@@ -28,12 +32,13 @@ ul{
 }
 
 #header .topBox{
-    height:29px;
+    height:40px;
     background-color: bisque;
 }
 
 #header .topBox .topLink{
     float:right;
+    color:black;
     padding-top: 8px;
 }
 
@@ -50,4 +55,16 @@ ul{
     position: relative;
     top:-3px;
     background: none;
+}
+
+.midBox{
+    height:130px;
+    background-color: white;
+    width:100%;
+}
+
+#nav{
+    height:50px;
+    background-color: bisque;
+    width:auto;
 }
