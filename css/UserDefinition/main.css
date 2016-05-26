@@ -1,0 +1,43 @@
+.nav_icon{
+    margin-right:8%;
+    float:left;
+}
+.nav_icon > p, .nav_icon >span{
+    float:left;
+    color:#747474;
+    font-weight:bold;
+}
+.nav_icon >span{
+    margin-right:10px;
+}
+#carousel-example-generic{
+    width:750px;
+    height:450px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+}
+#side_left{
+    width:calc((100% - 750px)/2);
+    height:450px;
+    float:left;
+    background-color:#FFFED7;
+}
+#side_left > div{
+    width:100%;
+    height:10%;
+    border-top:3px solid #fff;
+    border-right:3px solid #fff;
+}
+#side_right{
+    width:calc((100% - 750px)/2);
+    height:450px;
+    float:left;
+    background-color:#FFFED7;
+}
+#side_right > div{
+    width:100%;
+    height:10%;
+    border-top:3px solid #fff;
+    border-left:3px solid #fff;
+}
