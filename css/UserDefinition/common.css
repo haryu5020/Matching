@@ -9,6 +9,12 @@ a{
     color:white;
     text-decoration:none;
 }
+li{
+    margin: 0;
+    padding:0;
+    border: 0;
+    background: transparent;
+}
 
 #main{
     width:1100px;
@@ -19,7 +25,6 @@ a{
 #header{
     width:100%;
     height: 220px;
-    z-index: 700;
     position:relative;
     background-color: white;
 }
@@ -48,12 +53,52 @@ a{
     padding-left: 10px;
     
 }
-
+    
 #header .topBox .topLink li.loginBtn{
     padding-left:0;
-    position: relative;
     top:-3px;
     background: none;
+    background-color: white;
+}
+
+.login_form{
+    padding-top: 15px;
+    padding-left: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.login_form .txtLogin{
+    margin-bottom: 20px;
+    width:500px;
+}
+
+.login_form .input_li{
+    margin: 0 0 12px 0;
+    padding: 8px 0 0 6px;
+    width: 279px;
+    height: 39px;
+    border: solid 1px #c9c9c9;
+}
+
+.login_form .input_li label{
+    display: inline-block;
+    width:45px;
+}
+
+.login_form .input_li input{
+    width:200px;
+    border:1px solid #fff;
+    font-size:16px;
+    line-height: 18px;
+    color:#555;
+}
+
+.login_form .btn{
+    margin-top: 14px;
+    position: absolute;
+    left: 372px;
+    bottom: 0;
 }
 
 .midBox{
@@ -62,9 +107,23 @@ a{
     width:100%;
 }
 
+.midBox .middle{
+    margin:0 auto;
+    width:150px;
+    height:130px;
+}
+
+#logo{
+    width:200px;
+    height: 120px;
+}
+
 #nav{
     height:50px;
     background-color: bisque;
     width:auto;
     padding:1.5%;
 }
+
+
+
