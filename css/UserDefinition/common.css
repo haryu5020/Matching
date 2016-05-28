@@ -58,7 +58,6 @@ li{
     padding-left:0;
     top:-3px;
     background: none;
-    background-color: white;
 }
 
 .login_form{
@@ -95,10 +94,15 @@ li{
 }
 
 .login_form .btn{
-    margin-top: 14px;
     position: absolute;
-    left: 372px;
+    top:121px;
     bottom: 0;
+}
+
+.loginLink{
+    margin: 0 auto;
+    color:black;
+    padding-top: 8px;
 }
 
 .midBox{
