@@ -41,3 +41,58 @@
     border-top:3px solid #fff;
     border-left:3px solid #fff;
 }
+#content{
+    width:100%;
+}
+.content_list{
+    width:100%;
+}
+.content_list > p{
+    width:100%;
+    float:left;
+    text-align:center;
+    font-size:25px;
+    border-bottom:1px solid #000;
+    margin-top:5%;
+}
+.content_list > p> label, .content_list > p> span{
+    font-size:15px;
+}
+.pic{
+    width:20%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    float:left;
+}
+
+.pic > p{
+    width:200px;
+    border-bottom:1px solid #8C8C8C;
+    margin-top:2%;
+}
+.pic > p > label{
+   float:right;
+}
+.pic >label > span, .pic >label > p{
+    float:left;
+}
+.pic >label > span{
+    color:#FF5E00;
+}
+.price{
+    font-weight:bold;
+    border:0px !important;
+    color:#FFBB00;
+}
+#bottom{
+    bottom:0px;
+    width:100%;
+}
+#bottom > p{
+    width:50%;
+    float:left;
+}
+
+.bottom_first{
+    margin-top:5%;
+}
