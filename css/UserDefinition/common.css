@@ -21,6 +21,37 @@ li{
     margin-left:auto;
     margin-right:auto;
 }
+.nav_icon{
+    margin-right:8%;
+    float:left;
+}
+.nav_icon > a, .nav_icon >span, .nav_icon > p{
+    float:left;
+    color:#747474;
+    font-weight:bold;
+}
+.nav_icon >span{
+    margin-right:10px;
+}
+#side_left{
+    width:calc((100% - 750px)/2);
+    height:450px;
+    float:left;
+    background-color:#FFFED7;
+}
+#side_left >div > p{
+    width:100%;
+    text-align:center;
+    font-size:15px;
+    margin-top:5%;
+    color:#747474;
+}
+#side_left > div{
+    width:100%;
+    height:10%;
+    border-top:3px solid #fff;
+    border-right:3px solid #fff;
+}
 
 #header{
     width:100%;
