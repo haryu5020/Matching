@@ -1,4 +1,54 @@
 #main_img > img{
     margin-left:35px;
     margin-top:35px;
+    margin-bottom:35px;
+}
+#sort{
+    width:100%;
+    margin-top:3%;
+    border-top:1px solid #8C8C8C;
+    border-bottom:1px solid #8C8C8C;
+    font-size:15px;
+}
+#sort > label{
+    float:right;
+    margin-left:1%;
+    font-size:10px;
+    margin-top:5px;
+}
+#sort > span{
+    float:left;
+    margin-top:3px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.item_list{
+    width:100%;
+}
+.pic{
+    width: 20%;
+    
+    margin-left:2.5%;
+    margin-right:2.5%;
+    float:left;
+}
+
+.pic > p{
+    width:200px;
+    border-bottom:1px solid #8C8C8C;
+    margin-top:2%;
+}
+.pic > p > label{
+   float:right;
+}
+.pic >label > span, .pic >label > p{
+    float:left;
+}
+.pic >label > span{
+    color:#FF5E00;
+}
+.price{
+    font-weight:bold;
+    border:0px !important;
+    color:#FFBB00;
 }
