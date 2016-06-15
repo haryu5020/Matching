@@ -134,6 +134,10 @@ li{
     padding:20px 0 0 120px;
     margin-bottom: 45px;
     margin-left: -21px;
+    width:100%;
+}
+.login_link > li{
+    float:left;
 }
 
 .loginLink{
