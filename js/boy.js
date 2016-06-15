@@ -39,6 +39,34 @@ $(document).ready(function(){
         "img" : "boy_pic10.PNG",
         "name" : "카일 배색 반팔티",
         "price" : "11,000원"
+    },{
+        "img" : "boy_pic11.PNG",
+        "name" : "캘리포니아 박스티셔츠",
+        "price" : "12,000원"
+    },{
+        "img" : "boy_pic12.PNG",
+        "name" : "컬러사이드 지퍼반팔티",
+        "price" : "22,000원"
+    },{
+        "img" : "boy_pic13.PNG",
+        "name" : "나이스 워싱트임박스티",
+        "price" : "9,000원"
+    },{
+        "img" : "boy_pic14.PNG",
+        "name" : "스퀘어드 셔츠",
+        "price" : "19,000원"
+    },{
+        "img" : "boy_pic15.PNG",
+        "name" : "로이드 헨리넥셔츠",
+        "price" : " 13,000원"
+    },{
+        "img" : "boy_pic16.PNG",
+        "name" : "요거트 단가라반팔티",
+        "price" : "14,000원"
+    },{
+        "img" : "boy_pic17.PNG",
+        "name" : "아폴로 나염박스티",
+        "price" : "17,000원"
     }]
     
     

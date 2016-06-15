@@ -36,6 +36,13 @@ li{
 .nav_icon >span{
     margin-right:10px;
 }
+#search{
+    float:right;
+}
+#search > input[type="button"]{
+    background:#fff;
+    border:1px solid #c9c9c9;
+}
 #side_left{
     width:calc((100% - 750px)/2);
     height:450px;
@@ -172,6 +179,19 @@ li{
     width:auto;
     padding:1.5%;
 }
+#bottom{
+    bottom:0px;
+    width:100%;
+}
+#bottom > p{
+    width:50%;
+    float:left;
+}
 
-
+.bottom_first{
+    margin-top:5%;
+}
+.bottom_first:first-child{
+    clear:both;
+}
 
