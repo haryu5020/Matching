@@ -1,40 +1,40 @@
 $(document).ready(function(){
     var girl_obj=[{
         "img" : "girl_pic1.PNG",
-        "name" : "러브헤이트원피스(OP)",
-        "price" : "11,000원"
+        "name" : "밀크쇼콜라티",
+        "price" : "13,000원"
     },{
         "img" : "girl_pic2.PNG",
-        "name" : "헤이쥬드원피스(OP)",
-        "price" : "31,000원"
+        "name" : "살랑블라우스",
+        "price" : "29,000원"
     },{
         "img" : "girl_pic3.PNG",
-        "name" : "보헤미안원피스(OP)",
-        "price" : "17,000원"
+        "name" : "우디카나시티",
+        "price" : "7,000원"
     },{
         "img" : "girl_pic4.PNG",
-        "name" : "도도청스커트(8K)",
-        "price" : "17,000원"
+        "name" : "페페크롭티",
+        "price" : "7,000원"
     },{
         "img" : "girl_pic5.PNG",
-        "name" : "컷팅치마바지(PA)",
+        "name" : "컷팅치마바지",
         "price" : "27,000원"
     },{
         "img" : "girl_pic6.PNG",
-        "name" : "리엣스커트(8K)",
-        "price" : "19,000원"
+        "name" : "쫀쫀스키니",
+        "price" : "9,000원"
     },{
         "img" : "girl_pic7.PNG",
-        "name" : "다이너주름스커트(8K)",
-        "price" : "17,000원"
+        "name" : "레몬칩티셔츠",
+        "price" : "9,000원"
     },{
         "img" : "girl_pic8.PNG",
-        "name" : "로코스커트(8N)",
-        "price" : "12,000원"
+        "name" : "리필숏팬츠",
+        "price" : "22,000원"
     },{
         "img" : "girl_pic9.PNG",
-        "name" : "단가라슬림원피스(OP)",
-        "price" : "12,000원"
+        "name" : "블루밍숏팬츠",
+        "price" : "19,000원"
     },{
         "img" : "girl_pic10.PNG",
         "name" : "유혹스커트(8K)",
