@@ -21,6 +21,9 @@ li{
     margin-left:auto;
     margin-right:auto;
 }
+#logo{
+    cursor:pointer;
+}
 .nav_icon{
     margin-right:8%;
     float:left;

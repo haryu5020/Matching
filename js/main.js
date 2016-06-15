@@ -1,72 +1,72 @@
 $(document).ready(function(){
     var new_obj=[{
-        "img" : "con1.PNG",
-        "name" : "꽃게랑티셔츠(T)",
-        "price" : "15,000원"
-    },{
-        "img" : "con2.PNG",
-        "name" : "아이러브티(T)",
+        "img" : "girl_pic11.PNG",
+        "name" : "캘리그티셔츠",
         "price" : "12,000원"
     },{
-        "img" : "con3.PNG",
-        "name" : "데님숏팬츠(JE)",
-        "price" : "24,000원"
+        "img" : "boy_pic11.PNG",
+        "name" : "캘리포니아 박스티셔츠",
+        "price" : "12,000원"
     },{
-        "img" : "con4.PNG",
-        "name" : "로스숏팬츠(JE)",
+        "img" : "girl_pic12.PNG",
+        "name" : "마린단가라티",
+        "price" : "11,000원"
+    },{
+        "img" : "girl_pic13.PNG",
+        "name" : "스모크블라우스",
         "price" : "16,000원"
     },{
-        "img" : "con5.PNG",
-        "name" : "데님언발숏팬츠(JE)",
-        "price" : "15,000원"
+        "img" : "boy_pic12.PNG",
+        "name" : "컬러사이드 지퍼반팔티",
+        "price" : "22,000원"
     },{
-        "img" : "con6.PNG",
-        "name" : "보헤미안투톤원피스(OP)",
-        "price" : "17,000원"
+        "img" : "girl_pic14.PNG",
+        "name" : "꿈결처럼블라우스",
+        "price" : "27,000원"
     },{
-        "img" : "con7.PNG",
-        "name" : "크롭티(8N)",
-        "price" : "9,000원"
+        "img" : "girl_pic15.PNG",
+        "name" : "레이스스퀘어티",
+        "price" : "12,000원"
     },{
-        "img" : "con8.PNG",
-        "name" : "에몽반팔티(T)",
+        "img" : "boy_pic13.PNG",
+        "name" : "나이스 워싱트임박스티",
         "price" : "9,000원"
     }]//new item
     
     
     
     var best_obj=[{
-        "img" : "con9.PNG",
-        "name" : "멜빵팬츠(JE)",
+        "img" : "boy_pic14.PNG",
+        "name" : "스퀘어드 셔츠",
         "price" : "19,000원"
     },{
-        "img" : "con10.PNG",
-        "name" : "아기새싹티(T)",
-        "price" : "12,000원"
-    },{
-        "img" : "con11.PNG",
-        "name" : "단짝반팔티(T)",
-        "price" : " 9,000원"
-    },{
-        "img" : "con12.PNG",
-        "name" : "첼로브이넥티(T)",
-        "price" : "14,000원"
-    },{
-        "img" : "con13.PNG",
-        "name" : "리틀시스터티(T)",
-        "price" : "10,000원"
-    },{
-        "img" : "con14.PNG",
-        "name" : "아이스트리티(T)",
+        "img" : "girl_pic16.PNG",
+        "name" : "아이스트리티",
         "price" : "7,000원"
     },{
-        "img" : "con15.PNG",
-        "name" : "세일러티셔츠(T)",
-        "price" : "13,000원"
+        "img" : "boy_pic15.PNG",
+        "name" : "로이드 헨리넥셔츠",
+        "price" : " 13,000원"
     },{
-        "img" : "con16.PNG",
-        "name" : "5부팬츠(8N)",
-        "price" : "19,000원"
+        "img" : "boy_pic16.PNG",
+        "name" : "요거트 단가라반팔티",
+        "price" : "14,000원"
+    },{
+        "img" : "girl_pic17.PNG",
+        "name" : "슈에뜨세라티",
+        "price" : "20,000원"
+    },{
+        "img" : "girl_pic18.PNG",
+        "name" : "스멍키데님숏팬츠",
+        "price" : "7,000원"
+    },{
+        "img" : "boy_pic17.PNG",
+        "name" : "아폴로 나염박스티",
+        "price" : "17,000원"
+    },{
+        "img" : "girl_pic19.PNG",
+        "name" : "포버튼숏팬츠",
+        "price" : "21,000원"
     }]
     
     for(var i=0;i<new_obj.length;i++){

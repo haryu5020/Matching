@@ -37,8 +37,8 @@ $(document).ready(function(){
         "price" : "19,000원"
     },{
         "img" : "girl_pic10.PNG",
-        "name" : "유혹스커트(8K)",
-        "price" : "13,000원"
+        "name" : "더 뮤즈티셔츠",
+        "price" : "12,000원"
     }]
     
     
