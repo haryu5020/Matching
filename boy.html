@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="css/UserDefinition/girl.css">
+    <link rel="stylesheet" href="css/UserDefinition/boy.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.ttf">
     <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff2">
     <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff">
@@ -121,37 +121,58 @@
                 </div>
             </div>
         </div>
-         <div id="side_left">
-            <div>
-                <p>New Item</p>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/boy/boy_main1.png" alt="..." class="main_pic">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/boy/boy_main2.png" alt="..." class="main_pic">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/boy/boy_main3.png" alt="..." class="main_pic">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Best Item</p>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div id="main_img">
-            <img src="img/boy_main.png">
+        <div id="side_img">
+            <img src="img/boy/boy_main_side1.PNG" >
+            <img src="img/boy/boy_main_side2.PNG" >
+            <img src="img/boy/boy_main_side3.PNG" style="margin-top:10px;">
+            <img src="img/boy/boy_main_side4.PNG" style="margin-top:10px;">
         </div>
+        
+        
+        
         <p id="sort">
             <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
-            여성
+            남성
             <label>높은가격순</label>
             <label>낮은가격순</label>
             <label>신상품순</label>
@@ -478,4 +499,7 @@
     </div>
     <script src="js/boy.js"></script>
     <script src="js/common.js"></script>
+    <script>
+            $('.carousel').carousel();
+    </script>
 </body>
