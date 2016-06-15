@@ -130,6 +130,12 @@ li{
     bottom: 0;
 }
 
+.login_link{
+    padding:20px 0 0 120px;
+    margin-bottom: 45px;
+    margin-left: -21px;
+}
+
 .loginLink{
     margin: 0 auto;
     color:black;
