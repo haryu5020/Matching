@@ -45,7 +45,7 @@ $("#up_right").click(function(){
 
 $("#up_left").click(function(){
     i-=1;
-    if(i<0){
+    if(i<=0){
         up_list=up_url+up[0];
         i=1;
     }else{
@@ -67,6 +67,7 @@ $("#bottom_right").click(function(){
     }
     j+=1;
     $("#bottom" + "> img").attr("src", bottom_list);
+    
     if(up.length==0){
         $("#bottom" + "> img").attr("src", " ");
     }
@@ -74,7 +75,7 @@ $("#bottom_right").click(function(){
 
 $("#bottom_left").click(function(){
     j-=1;
-    if(j<0){
+    if(j<=0){
         bottom_list=bottom_url+bottom[0];
         j=1;
     }else{
