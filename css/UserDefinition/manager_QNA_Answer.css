@@ -1,6 +1,4 @@
-    
-
-#container .contents .contents_Post{
+#container .contents .contents_QNA{
     margin-left: 20px;
     margin-top:8.5px;
     width: 880px;
@@ -8,7 +6,7 @@
     background-color:#FFFFFF;
 }
 
-#container .contents .contents_Post #contents_Post_upperbar{
+#container .contents .contents_QNA #contents_QNA_upperbar{
     width:880px;
     height:40px;
     background-color:#637DA5;
@@ -19,7 +17,7 @@
 }
 
 
-#container .contents .contents_Post #contents_Post_MenuName{
+#container .contents .contents_QNA #contents_QNA_MenuName{
     width:880px;
     height:43px;
     background-color:#FFFFFF;
@@ -28,14 +26,14 @@
     color:#424242;
 }
 
-#container .contents .contents_Post #contents_Post_middlebar{
+#container .contents .contents_QNA #contents_QNA_middlebar{
     width:880px;
     height:4px;
     background-color:#424242;
 }
 
 
-#postUpperBar{
+#QNAList_UpperBar{
     background-color : #F1F1F1;
 
 }
@@ -45,13 +43,18 @@ td{
 }
 
 
+.QNAListAnswer .QNAListAnswerBox{
 
-.postList thead td{
+    border: 1px solid #BCBCBC;
+    height: 370px;
+}
+
+.QNAListAnswer thead td{
     font-size: 11px;
     font-weight: bold;
 }
 
-.postList td{
+.QNAListAnswer td{
     text-align: center;
     vertical-align: middle;
     color:#686868;
@@ -59,21 +62,19 @@ td{
 }
 
 
-.postList td.post_MemberID{
+.QNAListAnswer td.QNA_MemberID{
     width:300px;
     height:32px;
 }
 
-.postList td.post_info{
+.QNAListAnswer td.QNA_info{
     width:380px;
 }
 
-.postList td.post_amount{
+.QNAListAnswer td.QNA_amount{
     width:200px;
 }
 
-.postList td.post_state{
+.QNAListAnswer td.QNA_state{
     width:200px;
 }
-
-
