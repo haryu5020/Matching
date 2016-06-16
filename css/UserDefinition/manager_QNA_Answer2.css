@@ -42,6 +42,10 @@ td{
     display: table-cell;
 }
 
+.AnswerText{
+    width:500px;
+    height:300px;
+}
 
 .QNAListAnswer .QNAListAnswerBox{
 
@@ -53,9 +57,15 @@ td{
 }
 
 
-.Button_Answer{
+.AnswerSummitbtn{
     width:auto;
-    height:25px;
+    height:27px;
+    color:#424242;
+    background-color: #F1F1F1;
+}
+.AnswerCancelbtn{
+    width:auto;
+    height:27px;
     color:#424242;
     background-color: #F1F1F1;
 }
