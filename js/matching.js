@@ -66,10 +66,10 @@ $("#bottom_right").click(function(){
 $("#bottom_left").click(function(){
     j-=1;
     if(j<0){
-        bottom_list=bottom_url+up[0];
+        bottom_list=bottom_url+bottom[0];
         j=1;
     }else{
-        bottom_list=bottom_url+up[j];
+        bottom_list=bottom_url+bottom[j];
     }
     $("#bottom" + "> img").attr("src", bottom_list);
 })
@@ -80,10 +80,9 @@ $("#up").on("dragend", function(){
     var up_cloth=$("#up" + " > img").attr("src");
     $("#top" + " > img").attr("src", up_cloth);
     
-    $("#drag" + " > p").html("");
 })
 $("#bottom").on("dragend", function(){
     var bottom_cloth=$("#bottom" + " > img").attr("src");
     $("#under" + " > img").attr("src", bottom_cloth);
-    $("#drag" + " > p").html("");
+
 })
