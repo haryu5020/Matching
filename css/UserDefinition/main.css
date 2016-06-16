@@ -55,6 +55,12 @@
     border:0px !important;
     color:#FFBB00;
 }
+.pic > label > input{
+    width:55px;
+    margin-top:-5px;
+    background-color:bisque;
+    border:1px solid #eaeaea;
+}
 #bottom{
     bottom:0px;
     width:100%;

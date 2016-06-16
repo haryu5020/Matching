@@ -38,6 +38,9 @@ $("#up_right").click(function(){
     }
     i+=1;
     $("#up" + "> img").attr("src", up_list);
+    if(up.length==0){
+        $("#up" + "> img").attr("src", " ");
+    }
 })
 
 $("#up_left").click(function(){
@@ -49,6 +52,9 @@ $("#up_left").click(function(){
         up_list=up_url+up[i];
     }
     $("#up" + "> img").attr("src", up_list);
+    if(up.length==0){
+        $("#up" + "> img").attr("src", " ");
+    }
 })
 
 
@@ -61,6 +67,9 @@ $("#bottom_right").click(function(){
     }
     j+=1;
     $("#bottom" + "> img").attr("src", bottom_list);
+    if(up.length==0){
+        $("#bottom" + "> img").attr("src", " ");
+    }
 })
 
 $("#bottom_left").click(function(){
@@ -72,6 +81,9 @@ $("#bottom_left").click(function(){
         bottom_list=bottom_url+bottom[j];
     }
     $("#bottom" + "> img").attr("src", bottom_list);
+    if(up.length==0){
+        $("#bottom" + "> img").attr("src", " ");
+    }
 })
 
 
@@ -86,3 +98,53 @@ $("#bottom").on("dragend", function(){
     $("#under" + " > img").attr("src", bottom_cloth);
 
 })
+
+$("#up_delete").click(function(){
+    var src=$("#up" + " > img").attr("src");
+    for(var k=0;k<bottom.length;k++){
+        if(up_url+up[k]==src){
+          
+          up.splice(k, 1);
+            
+          if(i>=up.length){
+            up_list=up_url+up[up.length-1];
+            i=up.length-2;
+          }else{
+            i-=1;
+            up_list=up_url+up[i];
+          }
+          i+=1;
+          $("#up" + "> img").attr("src", up_list);
+        }
+    }
+    if(up.length==0){
+        $("#up" + "> img").attr("src", " ");
+    }
+})
+
+
+$("#bottom_delete").click(function(){
+    var src=$("#bottom" + " > img").attr("src");
+    
+    for(var k=0;k<bottom.length;k++){
+        if(bottom_url+bottom[k]==src){
+          
+          bottom.splice(k, 1);
+            
+          if(j>=bottom.length){
+        bottom_list=bottom_url+bottom[bottom.length-1];
+            j=bottom.length-2;
+          }else{
+              j-=1;
+            bottom_list=bottom_url+bottom[j];
+          }
+          j+=1;
+          $("#bottom" + "> img").attr("src", bottom_list);
+        }
+    }
+    if(bottom.length==0){
+        $("#bottom" + "> img").attr("src", " ");
+    }
+    
+})
+
