@@ -1,0 +1,112 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.contents .shoppingCartBox{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.customer_title{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.shoppingList thead th{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.shoppingList td{
+    text-align: center;
+    vertical-align: middle;
+    height:200px;
+    color:#000;
+    font-size:15px;
+    border: 1px solid #A9A9A9;
+}
+
+.wishList{
+    border:1px solid #A9A9A9;
+}
+
+
+.shoppingList th.wish_info{
+    width:430px;
+}
+.shoppingList th.wish_count{
+    width:152px;
+    height:100px;
+}
+.shoppingList th.wish_price{
+    width:100px;
+}
+
+.shoppingList th.wish_state{
+    width:140px;
+}
+
+.totalPrice{
+    margin: 0 0 20px 0;
+    border: 8px solid #f1f1f1;
+    background: #fff;
+    width:100%
+}
+
+.totalPrice p.totalSelect{
+    float:left;
+    width:226px;
+    margin:0 -226px 0 0;
+    padding:50px 0 0 0;
+    height: 78px;
+    border-right:solid 1px #f8f8f8;
+    text-align: center;
+}
+
+.totalPrice .priceInfo{
+    margin: 0 0 0 226px;
+}
+
+.tableStyle{
+    width:100%;
+}
+
+.tableStyle th, .tableStyle td{
+    vertical-align: middle;
+    text-align: center;
+    color: #868686;
+}
+
+.totlaPrice .priceInfo .tableStyle td.total{
+    color:#2c2c2c;
+    font-size:40px;
+}
+
+
+.totalPrice .priceInfo .tableStyle td{
+    padding:0;
+    height:90px;
+    font-size:30px;
+    font-weight: bold;
+    color: #626262;
+    background: none;
+}
+
+
+.tableStyle th.end{
+    padding:0;
+}
+
+.normalInfo{
+    border: 5px solid #f1f1f1;
+    font-size:13px;
+    padding:16px 20px;
+}
