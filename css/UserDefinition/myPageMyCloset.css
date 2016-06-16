@@ -46,6 +46,8 @@
     height:80%;
     background:#fff;
     border-radius: 15px;
+    margin-left:10%;
+    margin-top:3%;
 }
 
 .clothesList > input{
@@ -132,4 +134,22 @@
     margin-top:18%;
     color:#fff;
     text-align:center;
+}
+.top > img, .under > img{
+    width:80%;
+    margin-left: 10%;
+}
+#manekin > .top > img{
+    width:50%;
+    margin-left:18%;
+    margin-top:20%;
+}
+#manekin > .under > img{
+    width:50%;
+    margin-left:18%;
+    margin-top:-8%;
+}
+#upView > img, #bottomView > img{
+    width:50%;
+    margin-left:25%;
 }
