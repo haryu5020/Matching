@@ -9,6 +9,7 @@
 }
 
 #container.mySub{
+    height: 900px;
     line-height: 14px;
     padding-top:0;
 }
@@ -59,7 +60,7 @@
 }
 #container.mySub .contents .myPlusBox{
     margin: 10px 0 12px 10px;
-    border: 1px solid #A9A9A9;
+    border: 1px solid #A9A9Ax9;
 }
 
 #container.mySub .contents .myPlusbar{
@@ -73,19 +74,42 @@
     margin:-12px 0 24px 0;
     padding: 26px 0 0 50px;
     height:150px;
-    
 }
 
 .myPlusInfo .list01{
     margin: 0 12px 0 0;
-    width:90px;
+    width:180px;
     padding: 10px 0 0 0;
     float:left;
     text-align: center;
 }
 
-.myPlusInfo .list01 .shoppingCartNum {
-    width:120px;
-    height:120px;
-    
+.myPlusInfo #ShoppingCartNum{
+    margin-top: 20px;
+    margin-left: -10px;
+    width:96px;
+    height:96px;
+    float:left;
+}
+
+.myPlusInfo .list02{
+    margin: 0 12px 0 0;
+    width:180px;
+    padding: 10px 0 0 0;
+    float:left;
+    text-align: center;
+}
+.myPlusInfo #ShippingNum{
+    margin-top: 20px;
+    margin-left: -10px;
+    width:96px;
+    height:96px;
+    float:left;
+}
+.myPlusInfo #QuestionNum{
+    margin-top: 20px;
+    margin-left: -10px;
+    width:96px;
+    height:96px;
+    float:left;
 }
