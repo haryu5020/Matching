@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/UserDefinition/common.css">
-    <link rel="stylesheet" href="css/UserDefinition/manager_QNA.css">
+    <link rel="stylesheet" href="css/UserDefinition/manager_QNA_Answer.css">
     <link rel="stylesheet" href="css/UserDefinition/myPage.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -105,95 +105,35 @@
                             <p style="padding-top:13px;padding-left:10px;">관리자님 반갑습니다!</p>
                         </div>
                         <div id="contents_QNA_MenuName">
-                            <p style="padding-top:16px;padding-left:7px;">문의관리</p>
+                            <p style="padding-top:16px;padding-left:7px;">문의관리ㅣ답변작성</p>
                         </div>
                         <div id="contents_QNA_middlebar"></div>
 
-                        <div class="QNAList">
-                            <table>
-                                <thead>
-                                    <tr id="QNAList_UpperBar">
-                                        <td class="QNA_MemberID">고객ID</td>
-                                        <td class="QNA_info">제목</td>
-                                        <td class="QNA_amount">문의일시</td>
-                                        <td class="QNA_state">처리상태</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="QNA_MemberID">
-                                            <p>user1</p>
-                                        </td>
-                                        <td class="QNA_info">
-                                            <p>안녕하세요 궁금한 것이 있습니다</p>
-                                        </td>
-                                        <td class="QNA_amount">2016.06.10</td>
-                                        <td class="QNA_state">
-                                            <select name="QNAstateOption">
-                                                <option value="처리상태" selected="selected">처리상태</option>
-                                                <option value="미처리">미처리</option>
-                                                <option value="답변완료">답변완료</option>
-                                            </select>
+                        <div class="QNAListAnswer">
+                            <div class="QNAListAnswerBox">
+                                <table class="QNAListAnswerTable
+" style="margin-top:10px;">
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="QNA_QuestionTitle">
+                                                <p>제목</p>
+                                            </td>
+                                            <td class="QNA_QuestionTitleInfo">
+                                                <p>상품 재입고 예정은 없으신가요?</p>
+                                            </td>
+                                            <td class="QNA_QuestionContents">2016.06.10</td>
+                                            <td class="QNA_QuenstionContentsInfo">
+                                               <p>사슴맨투맨을 구매하고 싶은데 재고가 없다고 뜨네요. 언제 재입고 되는지 알 수 있을까요?</p>
 
 
-                                        </td>
-                                    </tr>
-                                <tr>
-                                        <td class="QNA_MemberID">
-                                            <p>user1</p>
-                                        </td>
-                                        <td class="QNA_info">
-                                            <p>안녕하세요 궁금한 것이 있습니다</p>
-                                        </td>
-                                        <td class="QNA_amount">2016.06.10</td>
-                                        <td class="QNA_state">
-                                            <select name="QNAstateOption">
-                                                <option value="처리상태" selected="selected">처리상태</option>
-                                                <option value="미처리">미처리</option>
-                                                <option value="답변완료">답변완료</option>
-                                            </select>
-
-
-                                        </td>
-                                    </tr>
-                                   <tr>
-                                        <td class="QNA_MemberID">
-                                            <p>user1</p>
-                                        </td>
-                                        <td class="QNA_info">
-                                            <p>안녕하세요 궁금한 것이 있습니다</p>
-                                        </td>
-                                        <td class="QNA_amount">2016.06.10</td>
-                                        <td class="QNA_state">
-                                            <select name="QNAstateOption">
-                                                <option value="처리상태" selected="selected">처리상태</option>
-                                                <option value="미처리">미처리</option>
-                                                <option value="답변완료">답변완료</option>
-                                            </select>
-
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="QNA_MemberID">
-                                            <p>user1</p>
-                                        </td>
-                                        <td class="QNA_info">
-                                            <p>안녕하세요 궁금한 것이 있습니다</p>
-                                        </td>
-                                        <td class="QNA_amount">2016.06.10</td>
-                                        <td class="QNA_state">
-                                            <select name="QNAstateOption">
-                                                <option value="처리상태" selected="selected">처리상태</option>
-                                                <option value="미처리">미처리</option>
-                                                <option value="답변완료">답변완료</option>
-                                            </select>
-
-
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                            </td>
+                                        
+                                        
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
 
 
