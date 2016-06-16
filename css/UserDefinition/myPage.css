@@ -5,51 +5,87 @@
 }
 
 #container{
-    margin:0 0 30px 0;
-
+    margin:0 0 15px 0;
 }
 
 #container.mySub{
     line-height: 14px;
+    padding-top:0;
 }
 
-#container.mySub .sub{
-    
-}
-
-
-#container.mySub .sub.customer_new{
+#container.mySub .customer_new{
     padding-left: 0px;
-    width:190px;
+    width: 190px;
     height: 800px;
-    
+    float:left;
 }
 
-#container.mySub .sub.customer_new #myPlus{
-    margin-top:20px;
+#container.mySub .customer_new #myPlus{
+    margin-top:10px;
 }
-#container.mySub .sub.customer_new .myPageMenu{
+#container.mySub .customer_new .myPageMenu{
     border: 1px solid #A9A9A9;
 }
 
-#container.mySub .sub.customer_new .myPageMenu .menuName{
+#container.mySub .customer_new .myPageMenu .menuName{
     color:darkgray;
-    margin:10px 0 10px 0;
+    margin:0px 0 10px 0;
     font-size:14px;
     
 }
-#container.mySub .sub.customer_new .myPageMenu ul{
+#container.mySub .customer_new .myPageMenu ul{
     padding-left: 25px;
 }
 
-#container.mySub .sub.customer_new .myPageMenu li{
+#container.mySub .customer_new .myPageMenu li{
     padding: 10px 0 10px 0;
 }
 
-#container.mySub .sub.customer_new #helpDesk{
+#container.mySub .customer_new #helpDesk{
     margin-top:30px;
 }
 
-#container.mySub .sub.customer_new #accountInfo{
+#container.mySub .customer_new #accountInfo{
     margin-top:30px;
+}
+
+#container.mySub .contents{
+    min-height: 820px;
+}
+
+#container .contents{
+    width:911px;
+    float:left;
+}
+#container.mySub .contents .myPlusBox{
+    margin: 10px 0 12px 10px;
+    border: 1px solid #A9A9A9;
+}
+
+#container.mySub .contents .myPlusbar{
+    height:45px;
+    line-height:45px;
+    background: #627CA4;
+    color:white; 
+    font-size:17px;
+}
+#container.mySub .contents .myPlusInfo{
+    margin:-12px 0 24px 0;
+    padding: 26px 0 0 50px;
+    height:150px;
+    
+}
+
+.myPlusInfo .list01{
+    margin: 0 12px 0 0;
+    width:90px;
+    padding: 10px 0 0 0;
+    float:left;
+    text-align: center;
+}
+
+.myPlusInfo .list01 .shoppingCartNum {
+    width:120px;
+    height:120px;
+    
 }
