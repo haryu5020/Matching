@@ -1,0 +1,131 @@
+#header{
+    height:70px;
+}
+
+.topBox{
+    padding-top:10px;
+}
+
+.topBox > p{
+    font-size:15px;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+}
+#body{
+    width:100%;
+    height:500px;
+    overflow-y:scroll;
+    border:1px solid #8c8c8c;
+    margin-bottom:30px;
+}
+.list_box{
+    width:50%;
+    height:150px;
+    border-bottom:1px solid #8c8c8c;
+    border-right:1px solid #8c8c8c;
+    float:left;
+}
+.list_left{
+    widh:30%;
+    height:100%;
+    float:left;
+    padding-top:13px;
+    padding-left:10px;
+}
+.list_left > img{
+    width:80px;
+    margin-right:10px;
+}
+.list_right{
+    width:70%;
+    height:100%;
+    padding-top:13px;
+}
+
+.list_right > p{
+    font-size:13px;
+    float:left;
+}
+.list_right> label{
+    float:left;
+}
+.list_right > input{
+    clear:both;
+    background-color:bisque;
+    border:1px solid #eaeaea;
+}
+#body_bottom{
+    width:100%;
+    padding-left:35%;
+    margin-bottom:30px;
+}
+#body_bottom > input{
+    width:130px;
+    height:40px;
+    margin-left:30px;
+    font-size:13px;
+    font-weight:bold;
+    border-radius: 6px;
+}
+#add{
+    background:bisque;
+    border:1px solid #FFA7A7;
+}
+#main_go{
+    background:#eaeaea;
+    border:1px solid #8C8C8C;
+}
+
+#add_box{
+    display:none;
+    position:absolute;
+    width:300px;
+    height:500px;
+    top:50px;
+    left:530px;
+    background-color:#fff;
+    border:2px solid #8c8c8c;
+}
+#pic{
+    width:120px;
+    height:150px;
+    margin-left:90px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background:#eaeaea;
+    border:1px solid #8c8c8c;
+}
+#add_box > label{
+    float:left;
+    font-size:20px;
+    margin-left:30px;
+    margin-right:10px;
+    color:#FFA7A7;
+    clear:both;
+}
+#add_box > p{
+    float:left;
+    font-size:13px;
+    margin-right:10px;
+    width:60px;
+}
+#add_box > input[type="text"]{
+    border:1px solid #D5D5D5;
+    height:25px;
+    width:130px;
+    font-size:15px;
+    margin-bottom:10px;
+}
+#add_box > input[type="button"]{
+     background:bisque;
+    border:1px solid #FFA7A7;
+    width:60%;
+    height:40px;
+    margin-left:60px;
+    clear:both;
+    margin-top:30px;
+    font-size:15px;
+    font-weight:bold;
+    color:#fff;
+}
