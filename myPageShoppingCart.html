@@ -165,7 +165,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col" style="width:50px;">
-                                                <input type="checkbox" title="모두체크" class="checkall">
+                                                <input type="checkbox" title="모두체크" class="checkall" id="all">
                                             </th>
                                             <th scope="col" class="wish_info">상품명/옵션</th>
                                             <th class="wish_count">수량</th>
@@ -182,7 +182,7 @@
                                                 <img src="/">
                                             </td>
                                             <td class="wish_count">
-                                                <input type="number" name="number" title="수량체크" class="productCount" style="width:50px;">
+                                                <input type="number" name="number" title="수량체크" class="productCount" style="width:50px;" min="1">
                                             </td>
                                             <td class="wish_price">29,700원</td>
                                             <td class="wish_state">입금대기</td>
@@ -257,7 +257,7 @@
     <script>
         $('.carousel').carousel();
     </script>
-
+    <script src="js/myPageShoppingCart.js"></script>
 </body>
 
 </html>
