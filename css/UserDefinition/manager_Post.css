@@ -1,0 +1,79 @@
+    
+
+#container .contents .contents_QNA{
+    margin-left: 20px;
+    margin-top:8.5px;
+    width: 880px;
+    height: 460px;
+    background-color:#FFFFFF;
+}
+
+#container .contents .contents_QNA #contents_QNA_upperbar{
+    width:880px;
+    height:40px;
+    background-color:#637DA5;
+    font-size : 11px;
+    font-weight: bold;
+    color:white;
+    
+}
+
+
+#container .contents .contents_QNA #contents_QNA_MenuName{
+    width:880px;
+    height:43px;
+    background-color:#FFFFFF;
+    font-size : 24px;
+    font-weight: bold;
+    color:#424242;
+}
+
+#container .contents .contents_QNA #contents_QNA_middlebar{
+    width:880px;
+    height:4px;
+    background-color:#424242;
+}
+
+
+#postUpperBar{
+    background-color : #F1F1F1;
+
+}
+
+td{
+    display: table-cell;
+}
+
+
+
+.postList thead td{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.postList td{
+    text-align: center;
+    vertical-align: middle;
+    color:#686868;
+    font-size:11px;
+}
+
+
+.postList td.post_MemberID{
+    width:300px;
+    height:32px;
+}
+
+.postList td.post_info{
+    width:380px;
+}
+
+.postList td.post_amount{
+    width:200px;
+}
+
+.postList td.post_state{
+    width:200px;
+}
+
+
