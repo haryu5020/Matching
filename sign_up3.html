@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.ttf">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff2">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/UserDefinition/common.css">
+    <link rel="stylesheet" href="css/UserDefinition/sign_up3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <title>매칭 - 너의 코디, 어디까지 맞춰봤니?</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="innerHeader">
+                <div class="topBox">
+                    <ul class="topLink">
+                        <li class="list">
+                            <a href="/">회원가입</a>
+                        </li>
+                        <li class="list">
+                            <a href="/">주문배송</a>
+                        </li>
+                        <li class="list">
+                            <a href="/">장바구니</a>
+                        </li>
+                        <li class="list">
+                            <a href="/">고객센터</a>
+                        </li>
+                        <li class="list loginBtn">
+                            <button type="button" data-toggle="modal" data-target="#myModal" style="background-color:white; border:1px solid #c9c9c9;">
+                                <span>로그인</span>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <form method="post" id="loginform">
+                                            <div class="modal-body">
+                                                <ul class="login_form">
+                                                    <li class="txtLogin">
+                                                        <img src="img/loginWelcome.PNG">
+                                                    </li>
+                                                    <li class="input_li">
+                                                        <label for="id_input">
+                                                            <img src="img/loginIDText.PNG" style="padding-bottom:5px;">
+                                                        </label>
+                                                        <input type="text" name="id" title="ID를 입력하세요." id="id_input">
+                                                    </li>
+                                                    <li class="input_li">
+                                                        <label for="id_input">
+                                                            <img src="img/loginPWText.PNG" style="padding-bottom:5px;">
+                                                        </label>
+                                                        <input type="password" name="password" title="PW를 입력하세요." id="pw_input">
+                                                    </li>
+                                                    <li class="btn" style="left: 308px;">
+                                                        <input type="image" src="img/loginBtn.PNG" value="로그인" title="로그인">
+                                                    </li>
+                                                    <li class="btn" style="left: 408px;" data-dismiss="modal">
+                                                        <input type="image" src="img/loginClose.png" value="닫기" title="닫기">
+                                                    </li>
+                                                </ul>
+                                                <ul class = "login_link">
+                                                    <li class = "firstLink">
+                                                        <a href="/" style="width:95px;">
+                                                            <img src="img/loginSignUp.png" style="width:100px; height: 23px;">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/" style="width: 108px;">
+                                                            <img src="img/loginMatchingSignUp.png" style="width:118px; height: 23px;">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/" style="width: 108px;">
+                                                            <img src="img/loginFindIdPw.png" style="width:128px; height:23px;">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                           <!-- <div class="modal-footer">
+
+                                            </div>-->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="midBox">
+                    <div class="middle">
+                        <img src="img/logo.png" id="logo">
+                    </div>
+                </div>
+                <div id="nav">
+                    <div class="nav_icon">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                        <p>전체 카테고리</p>
+                    </div>
+                    <div class="nav_icon">
+                        <a href="girl.html">여성</p>
+                    </div>
+                    <div class="nav_icon">
+                        <a href="boy.html">남성</a>
+                    </div>
+                    <div class="nav_icon">
+                        <a href="">Matching하러가기</a>
+                    </div>
+                    <div class="nav_icon">
+                        <a href="">나만의 옷장</a>
+                    </div>
+                    <div id="search">
+                        <input type="text">
+                        <input type="button" value="검색">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="up_bar">
+            <br>
+            <h2>회원가입</h2>
+            <h5>안녕하세요! Matching회원이 되신걸 환영합니다.</h5>
+        </div>
+        <br>
+        <div id="body_con">
+            <div id="body_con_header">
+                <h3>감사합니다.</h3>
+            </div>
+            <h4>가입이 완료되었습니다.</h4>
+        </div>
+    </div>
+    <br>
+    <br>
+     <input type="button" value="메인으로 돌아가기" id="main_go">
+    <br>
+    <script src="js/sign_up3.js"></script>
+    </body>
