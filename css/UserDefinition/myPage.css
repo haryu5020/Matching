@@ -1,0 +1,55 @@
+.wrap{
+    width:1200px;
+    margin:0 auto;
+    font-weight: normal;
+}
+
+#container{
+    margin:0 0 30px 0;
+
+}
+
+#container.mySub{
+    line-height: 14px;
+}
+
+#container.mySub .sub{
+    
+}
+
+
+#container.mySub .sub.customer_new{
+    padding-left: 0px;
+    width:190px;
+    height: 800px;
+    
+}
+
+#container.mySub .sub.customer_new #myPlus{
+    margin-top:20px;
+}
+#container.mySub .sub.customer_new .myPageMenu{
+    border: 1px solid #A9A9A9;
+}
+
+#container.mySub .sub.customer_new .myPageMenu .menuName{
+    color:darkgray;
+    margin:10px 0 10px 0;
+    font-size:14px;
+    
+}
+#container.mySub .sub.customer_new .myPageMenu ul{
+    padding-left: 25px;
+}
+
+#container.mySub .sub.customer_new .myPageMenu li{
+    padding: 10px 0 10px 0;
+}
+
+#container.mySub .sub.customer_new #helpDesk{
+    margin-top:30px;
+}
+
+#container.mySub .sub.customer_new #accountInfo{
+    margin-top:30px;
+}
