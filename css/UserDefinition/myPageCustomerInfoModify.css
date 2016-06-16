@@ -1,0 +1,39 @@
+.contents .infoModify{
+    font-size:20px;
+    border: 8px solid #c7c7c7;
+}
+
+.contents .infoModify .txtType{
+    margin: 5px;
+    width: 170px;
+    height: 23px;
+    border: solid 1px #c7c7c7;
+    background: #fff;
+}
+
+.contents .infoModify .infoList{
+    margin : 30px;
+}
+
+input.radioType{
+    margin:10px;
+    padding:0;
+    width:13px;
+    height:13px;
+}
+
+input.txtType.emailType{
+    width:280px !important;
+}
+input.txtType.addrType{
+    width:400px !important;
+}
+
+input.txtType.telType{
+    width:70px !important;
+}
+
+.modifyBtn{
+    margin:24px 0 0 0;
+    text-align: center;
+}
