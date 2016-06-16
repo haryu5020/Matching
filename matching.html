@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/UserDefinition/common.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.ttf">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff2">
+    <link rel="stylesheet" type="text/css" href="css/fonts/glyphicons-halflings-regular.woff">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/UserDefinition/matching.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <title>매칭 - 너의 코디, 어디까지 맞춰봤니?</title>
+</head>
+    <body>
+        <div id="body">
+            <div id="header">
+                <input type="button" value="로그인" data-toggle="modal" data-target="#myModal">
+                <img src="img/logo.png">
+            </div>
+        <div id="left">
+            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+            <p>상의</p>
+            <div class="list">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true" id="up_left"></span>
+                <div id="up">
+                    
+                    <img src="">
+                    
+                </div>
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true" id="up_right"></span>
+                <input type="button" value="삭제하기">
+            </div>
+            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+            <p>하의</p>
+            <div class="list">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true" id="bottom_left"></span>
+                <div id="bottom">
+                    <img src="">
+                </div>
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true" id="bottom_right"></span>
+                <input type="button" value="삭제하기">
+            </div>
+        </div>
+        <div id="right">
+            <p>MATCHING</p>
+            <div id="right_div">
+                <div>
+                    <img src="img/mm.png">
+                </div>
+                <input type="button" value="코디저장">
+            </div>
+        </div>
+        </div>
+        
+        <div id="drag">
+            <p>상품을 드래그 해 주세요.</p>
+        </div>
+        
+        <div id="top">
+            <img src="">
+        </div>
+        <div id="under">
+            <img src="">
+        </div>
+        
+        
+        
+        
+                                    <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <form method="post" id="loginform">
+                                            <div class="modal-body">
+                                                <ul class="login_form">
+                                                    <li class="txtLogin">
+                                                        <img src="img/loginWelcome.PNG">
+                                                    </li>
+                                                    <li class="input_li">
+                                                        <label for="id_input">
+                                                            <img src="img/loginIDText.PNG" style="padding-bottom:5px;">
+                                                        </label>
+                                                        <input type="text" name="id" title="ID를 입력하세요." id="id_input">
+                                                    </li>
+                                                    <li class="input_li">
+                                                        <label for="id_input">
+                                                            <img src="img/loginPWText.PNG" style="padding-bottom:5px;">
+                                                        </label>
+                                                        <input type="password" name="password" title="PW를 입력하세요." id="pw_input">
+                                                    </li>
+                                                    <li class="btn" style="left: 308px;">
+                                                        <input type="image" src="img/loginBtn.PNG" value="로그인" title="로그인">
+                                                    </li>
+                                                    <li class="btn" style="left: 408px;" data-dismiss="modal">
+                                                        <input type="image" src="img/loginClose.png" value="닫기" title="닫기">
+                                                    </li>
+                                                </ul>
+                                                <ul class = "login_link">
+                                                    <li class = "firstLink">
+                                                        <a href="/" style="width:95px;">
+                                                            <img src="img/loginSignUp.png" style="width:100px; height: 23px;">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/" style="width: 108px;">
+                                                            <img src="img/loginMatchingSignUp.png" style="width:118px; height: 23px;">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/" style="width: 108px;">
+                                                            <img src="img/loginFindIdPw.png" style="width:128px; height:23px;">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+        
+        <script src="js/matching.js"></script>
+    </body>

@@ -1,0 +1,133 @@
+#body{
+    margin-top:10px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{
+    width:100%;
+    height:150px;
+}
+#header > input{
+    float:right;
+    width:60px;
+    height:30px;
+    background-color:#CEF279;
+    border:2px solid #9FC93C;
+    border-radius: 5px;
+}
+#header > img{
+    width:20%;
+    height:100px;
+    margin-left:40%;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#left{
+    width:30%;
+    height:420px;
+    float:left;
+    font-weight:bold;
+    margin-left:5%;
+}
+.list{
+    width:100%;
+    height:40%;
+    background:#E0FF8B;
+    margin-bottom:10%;
+    padding-top:5%;
+    
+}
+#left > span{
+    float:left;
+    margin-right:10px;
+}
+#up, #bottom{
+    float:left;
+    width:80%;
+    height:80%;
+    background:#fff;
+}
+.list > span{
+    float:left;
+    width:10%;
+    font-size:30px;
+    margin-top:55px;
+    color:#747474;
+    text-align:center;
+}
+.list > input{
+    margin-top:3px;
+    background-color:#CEF279;
+    border:2px solid #9FC93C;
+    border-radius: 5px;
+    margin-left:38%;
+    
+}
+#right{
+    width:45%;
+    height:420px;
+    margin-left:15%;
+    margin-right:5%;
+    float:left;
+}
+#right > p{
+    font-weight:bold;
+}
+#right_div{
+    height:95%;
+    padding-top:2%;
+    background:#E0FF8B;
+
+}
+#right_div > div{
+    width:60%;
+    height:90%;
+    margin-top:5%;
+    margin-left:5%;
+    background:#fff;
+    float:left;
+}
+#right_div > div > img{
+    width:100%;
+}
+#right_div > input{
+    background-color:#CEF279;
+    border:2px solid #9FC93C;
+    border-radius: 5px;
+    float:left;
+    margin-top:5%;
+    margin-left:40px;
+}
+
+#drag{
+    position:absolute;
+    top:350px;
+    right:440px;
+}
+
+#up > img, #bottom > img{
+    height:100%;
+    margin-left:28%;
+}
+#up_left, #up_right, #bottom_left, #bottom_right{
+    cursor:pointer;
+}
+
+#top{
+    position:absolute;
+    top:260px;
+    right:465px;
+}
+#under{
+    position:absolute;
+    top:355px;
+    right:468px;
+}
+#top > img{
+    width:110px;
+}
+#under > img{
+    width:110px;
+}
