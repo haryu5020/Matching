@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/UserDefinition/common.css">
     <link rel="stylesheet" href="css/UserDefinition/myPage.css">
-    <link rel="stylesheet" href="css/UserDefinition/myPageShoppingCart.css">
+        <link rel="stylesheet" href="css/UserDefinition/myPageQNA.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="js/myPage.js"></script>
@@ -71,8 +71,8 @@
                                                         <input type="image" src="img/loginClose.png" value="닫기" title="닫기">
                                                     </li>
                                                 </ul>
-                                                <ul class="login_link">
-                                                    <li class="firstLink">
+                                                <ul class = "login_link">
+                                                    <li class = "firstLink">
                                                         <a href="/" style="width:95px;">
                                                             <img src="img/loginSignUp.png" style="width:100px; height: 23px;">
                                                         </a>
@@ -123,15 +123,15 @@
             </div>
         </div>
         <!-- wrap start -->
-        <div class="wrap">
-            <div id="container" class="mySub">
+        <div class = "wrap">
+            <div id="container" class ="mySub">
                 <!-- Container Start -->
-                <div class="customer_new">
+                <div class ="customer_new">
                     <div id="myPlus">
                         <img src="img/myPage.PNG">
                     </div>
                     <div class="myPageMenu">
-                        <H3 style="margin-left:20px; ">Mypage</H3>
+                        <H3 style = "margin-left:20px; ">Mypage</H3>
                         <ul>
                             <li><a class="menuName">구매 / 주문내역</a></li>
                             <li><a class="menuName">장바구니</a></li>
@@ -144,7 +144,7 @@
                         </ul>
                     </div>
                     <div id="helpDesk">
-                        <img src="img/Helpdesk.PNG">
+                        <img src = "img/Helpdesk.PNG">
                     </div>
                     <div id="accountInfo">
                         <img src="img/accountInfo.PNG">
@@ -156,111 +156,27 @@
                             <span style="margin-left:20px;">반갑습니다</span>
                             <span style="float:right; margin-right:20px;">Matching 쇼핑몰에 오신것을 환영합니다.    </span>
                         </div>
-                    </div>
-                    <div class="shoppingCartBox">
-                        <div class="shoppingList">
-                            <p class="customer_title">장바구니</p>
-                            <form>
-                                <table class="wishList">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" style="width:50px;">
-                                                <input type="checkbox" title="모두체크" class="checkall" id="all">
-                                            </th>
-                                            <th scope="col" class="wish_info">상품명/옵션</th>
-                                            <th class="wish_count">수량</th>
-                                            <th class="wish_price">금액</th>
-                                            <th class="wish_state">선택</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox" name="buyindex" title="상품체크" class="pdtcheckbox">
-                                            </td>
-                                            <td class="wish_info">
-                                                <img src="/">
-                                            </td>
-                                            <td class="wish_count">
-                                                <input type="number" name="number" title="수량체크" class="productCount" style="width:50px;" min="1">
-                                            </td>
-                                            <td class="wish_price">11,400원</td>
-                                            <td class="wish_state">
-                                                <input type="image" src="http://img.sonyunara.com/publish/img/sub/member/mypagebtn01.gif" alt="주문하기" class="innerBtn01">
-                                                <input type="image" src="http://img.sonyunara.com/publish/img/sub/member/mypagebtn03.gif" alt="삭제">
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <p class="bottomBtn">
-                                    <input type="image" id="deleteProduct" src="img/selectProductDelete.PNG" style="margin:5px;" />
-                                </p>
-                                <div class="totalPrice">
-                                    <p class="totalSelect">
-                                        <img src="http://img.sonyunara.com/publish/img/sub/member/totaltxt01.gif" alt="총">
-                                        <span>1</span>
-                                        <img src="http://img.sonyunara.com/publish/img/sub/member/totaltxt02.gif" alt="개 상품 선택">
-                                    </p>
-                                    <div class="priceInfo">
-                                        <table class="tableStyle" cellpadding="0" cellspacing="0">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col" colspan="2">
-                                                        <img src="http://img.sonyunara.com/publish/img/sub/member/totaltxt03.gif" alt="상품가격">
-                                                    </th>
-                                                    <th scope="col" colspan="2">
-                                                        <img src="http://img.sonyunara.com/publish/img/sub/member/totaltxt04.gif" alt="배송비">
-                                                    </th>
-                                                    <th scope="col" class="end">
-                                                        <img src="http://img.sonyunara.com/publish/img/sub/member/totaltxt05.gif" alt="총결제금액">
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>11,400</td>
-                                                    <td><img src="http://img.sonyunara.com/publish/img/sub/member/math01.gif" alt="+"></td>
-                                                    <td>1,700</td>
-                                                    <td><img src="http://img.sonyunara.com/publish/img/sub/member/math02.gif" alt="="></td>
-                                                    <td class="total">13,100</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div style="float:right; margin:30px;">
-                                        <input type="image" src="http://img.sonyunara.com/publish/img/sub/member/orderbtn01.gif" alt="선택상품주문하기" title="선택상품주문하기">
-                                        <input type="image" src="http://img.sonyunara.com/publish/img/sub/member/orderbtn02.gif" alt="전체상품 주문하기" title="전체상품 주문하기">
-                                    </div>
-                                </div>
-                            </form>
-                            <ul class="normalInfo" style="margin-top:100px">
-                                <li>- 장바구니 보관기간은 1개월입니다.</li>
-                                <li>- 소망상자의 보관기간은 3개월입니다.</li>
-                                <li>- 할인기간이 끝났을 경우 가격이 자동으로 정상가로 변경됩니다.</li>
-                            </ul>
-                            <!-- Container End-->
-                        </div>
+                        
+                       
+                        
                     </div>
                 </div>
+                <!-- Container End-->
             </div>
         </div>
         <!-- wrap end -->
         <div id="bottom">
-            <p class="bottom_first">
-                <label>사업장소재지:</label> 서울특별시 노원구 공릉동 서울과학기술대학교</p>
-            <p class="bottom_first">
-                <label>안내전화:</label> 010-1111-2222</p>
-            <p>
-                <label>대표이사:</label> 성현준</p>
-            <p>
-                <label>이메일:</label> matching@naver.com</p>
+            <p class="bottom_first"><label>사업장소재지:</label> 서울특별시 노원구 공릉동 서울과학기술대학교</p>
+            <p class="bottom_first"><label>안내전화:</label> 010-1111-2222</p>
+            <p><label>대표이사:</label> 성현준</p>
+            <p><label>이메일:</label> matching@naver.com</p>
         </div>
     </div>
     <script src="js/main.js"></script>
     <script>
         $('.carousel').carousel();
     </script>
-    <script src="js/myPageShoppingCart.js"></script>
+
 </body>
 
 </html>
